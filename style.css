@@ -1,0 +1,54 @@
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4d00e6, 0 0 40px #4d00e6, 0 0 50px #4d00e6, 0 0 60px #4d00e6, 0 0 70px #4d00e6;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #110149, 0 0 40px #110149, 0 0 50px #110149, 0 0 60px #110149, 0 0 70px #110149, 0 0 80px #110149;
+    }
+}
+
+@font-face {
+    font-family: "BetterVinegar";
+    src: url("fonts/BetterVinegarDemo.otf");
+}
+
+@font-face {
+    font-family: "Quaro";
+    src: url("fonts/Quaro_Demo.ttf");
+}
+
+@font-face {
+    font-family: "Vanilla";
+    src: url("fonts/VanillaRavioli_Demo.ttf");
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.main-body {
+    background-image: url("resources/background-07.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-01 {
+    font-family: "Quaro";
+}
+
+.bg-blue {
+    background-color: rgb(51, 51, 255, );
+}
+
+.mainImg {
+    background-image: url("resources/singleProductView/item-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
