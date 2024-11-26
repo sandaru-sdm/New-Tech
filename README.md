@@ -74,4 +74,4 @@ Contributions are welcome! Please submit a pull request or open an issue for sug
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries, please contact [Sandaru Gunathilake/maduhansadilshan@gmail.com].
+For any inquiries, please contact Sandaru Gunathilake, maduhansadilshan@gmail.com
